@@ -1,0 +1,57 @@
+html {
+    font-size: 22px
+}
+
+
+
+
+header {
+    margin-bottom: 10px;
+}
+.container {
+    text-align: center;
+    margin-top: 400px;
+}
+
+
+.rounded-search {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button,.lucky-button {
+    display: inline-block;
+    padding: 8px;
+    background-color: #4285f4; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+.top-right-buttons1,.top-right-buttons2 {
+    display:inline-block;
+    cursor: pointer;
+    
+   
+}
+
+
+
+
+  

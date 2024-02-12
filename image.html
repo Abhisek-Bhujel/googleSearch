@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Search</title>
+    <style>
+        
+        .container {
+            text-align: center;
+            margin-top: 500px;
+        }
+        .rounded-search {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .search-button, .lucky-button {
+            padding: 10px;
+            background-color: #4285f4; 
+            color: #ffffff; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px; 
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <img src="assets/logo.png" alt="Poodle Logo">
+        </header>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="tbm" value="isch" hidden> 
+            <input type="text" name="q" placeholder="Search images..." class="rounded-search">
+            <div class="buttons">
+                <input type="submit" value="Image Search" class="search-button">
+                <a href="https://www.google.com/search?q=I'm+Feeling+Lucky&tbm=isch" class="lucky-button">I'm Feeling Lucky</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

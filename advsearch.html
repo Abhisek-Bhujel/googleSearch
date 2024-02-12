@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Poodle Advanced Search</title>
+</head>
+<body>
+    <header>Find Words With</header>
+    <form action="https://www.google.com/advanced_search" method="get">
+        <label for="allWords"> "all these words:"</label>
+        <input type="text" id="allWords" name="as_q" autofocus />
+
+        <br>
+
+        <label for="exactPhrase"> "this exact word or phrase:"</label>
+        <input type="text" id="exactPhrase" name="as_epq" />
+
+        <br>
+
+        <label for="anyWords"> "any of these words:"</label>
+        <input type="text" id="anyWords" name="as_oq" />
+
+        <br>
+
+        <label for="noneWords"> "none of these words:"</label>
+        <input type="text" id="noneWords" name="as_eq" />
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+       
+    </form>
+</body>
+</html>
+
